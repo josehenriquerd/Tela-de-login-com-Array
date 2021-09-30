@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html{
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+body {
+    background: rgb(63, 94, 251);
+    background: -moz-radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(164, 70, 252, 1) 100%
+    );
+    background: -webkit-radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(164, 70, 252, 1) 100%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(164, 70, 252, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#a446fc",GradientType=1);
+  }
+  .p3{
+      margin-top: -30px;
+      font-size: 30px;
+      color: rgb(53, 51, 134);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  section{
+      background-color: white;
+      max-width: 600px;
+      padding: 100px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      border-radius: 10px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  section input[type=text],
+  section input[type=password]{
+      width: 100%;
+      height: 30px;
+      border: 1px solid grey;
+      padding-left: 10px;
+      margin:10px 0
+  }
+  .p3{
+      text-align: center;
+      
+      
+  }
+  
+  #btn{
+      width: 100%;
+      height: 30px;
+      cursor: pointer;
+      background:blue;
+      border:0;
+      transition: 0.5s;
+      padding-left: 10px;
+      margin: 10px 0;
+      color: cornsilk;
+      
+  }
+  #btn:hover{
+      background-color: blueviolet;
+  }
+
+ 
